@@ -1,0 +1,10 @@
+<!-- operacion-recarga.component.html -->
+<div>
+  <h2>Realizar Recarga</h2>
+  <form (submit)="realizarRecarga()">
+    <label for="monto">Monto:</label>
+    <input type="number" id="monto" name="monto" [(ngModel)]="montoRecarga" required>
+
+    <button type="submit">Realizar Recarga</button>
+  </form>
+</div>
