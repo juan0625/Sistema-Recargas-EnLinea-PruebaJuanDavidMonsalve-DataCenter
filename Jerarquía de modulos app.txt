@@ -1,0 +1,13 @@
+src/
+|-- app/
+|   |-- app.module.ts
+|   |-- app-routing.module.ts
+|   |-- app.component.ts
+|   |-- app.component.html
+|   |-- registrar-usuario/
+|   |   |-- registrar-usuario.component.ts
+|   |   |-- registrar-usuario.component.html
+|   |-- operacion-recarga/
+|       |-- operacion-recarga.component.ts
+|       |-- operacion-recarga.component.html
+|-- ...
